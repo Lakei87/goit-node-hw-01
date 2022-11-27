@@ -1,1 +1,8 @@
-console.log("Hello word from goit students!!!!!!");
+const {
+    listContacts,
+    getContactById,
+    removeContact,
+    addContact } = require('./contacts');
+
+// removeContact(5);
+// console.log(getContactById(5));
